@@ -6,7 +6,7 @@ export class AppService {
   getHello(): DataDto {
     return {
       id: 1,
-      type: 'hello',
+      // type: 'hello',
       message: 'Hello',
     };
   }
