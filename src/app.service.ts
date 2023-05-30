@@ -9,6 +9,8 @@ export class AppService {
       type: 'hello',
       message: 'Hello',
       sub: true,
+      sub2: true,
+      super: true,
     };
   }
 }
