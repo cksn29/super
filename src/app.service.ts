@@ -5,9 +5,10 @@ import { DataDto } from '../sub/src/dto/data.dto';
 export class AppService {
   getHello(): DataDto {
     return {
-      id: 1,
+      id: 2,
       type: 'hello',
       message: 'Hello',
+      sub: true,
     };
   }
 }
